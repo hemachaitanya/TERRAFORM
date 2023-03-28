@@ -1,21 +1,19 @@
-variable "providername" {
-    type = object ({
-        region = string
-    })
-  
+variable "provid" {
+  type = object({
+    region = string
+  })
 }
-variable "vpc1" {
-    type = object({
-        cidr_block = list(string)
-        Name =list(string)
-    })
-  
-}
+variable "localvpc" {
+  type = object({
+    cidr_block = string
+    Name       = string
+  })
 
-variable "sub1" {
-    type = ({
-        cidr_block = list(string)
-        Name = list(sting)
-    })
-  
+}
+variable "localsub" {
+  type = object({
+    cidr_block = list(string)
+    Name       = list(string)
+  })
+
 }
