@@ -1,0 +1,8 @@
+
+
+you want to copy file one folder to anothername
+Copy-Item <"source"> -Destination <"requirepath/source">
+
+
+you want to Copycontent from one file to another file
+Copy-Item <"source"> -Destination <"requirepath">
