@@ -1,1 +1,1 @@
-filenames = ["1.txt", "2.txt", "3.txt"]
+filenames = ["1.txt", "3.txt"]

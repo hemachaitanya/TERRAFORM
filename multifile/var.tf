@@ -1,5 +1,5 @@
 variable "filenames" {
   type = list(string)
-  default  = ["1.txt", "2.txt", "3.txt"]
+  default  = ["1.txt", "3.txt"]
 
 }
